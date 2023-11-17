@@ -2,7 +2,7 @@
 // @use "mixin" as *;
 // @use "variables" as *;
 *{
-    border: solid 1px;
+    // border: solid 1px;
 }
 html{ // bonne idée de faire ça avec le html 
     height: 100%;
@@ -11,6 +11,7 @@ html{ // bonne idée de faire ça avec le html
 body{
     background-color: rgb(238, 238, 238);
 }
+
 .div_head_logo_button{
     display: flex;
     background-color: #5CA65B;
@@ -18,11 +19,30 @@ body{
         display: flex;
     }
     .h1_head{
+        text-align: center;
         height: 100%;
         width: 100%;
-        text-align: center;
         h1{
             color: red;
         }
+    }
+}
+
+.carte_central{
+    position: relative;
+    border: solid yellow 4px;
+    .div_carte{
+        text-align: center;
+        border: solid 1px;
+        width: 100%;
+        height: 100%;
+    }
+    .div_nave_barre{
+        border: solid  blue 1px;
+        background-color: blue;
+        border-radius: 20% 20% 0% 0%;
+        margin: 26% 0% 0% 5%;
+        width: 90%;
+        height: 200px;
     }
 }

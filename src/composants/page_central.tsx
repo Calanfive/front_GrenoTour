@@ -1,5 +1,7 @@
 function page_central() {
 
+
+
   return (
     <>
       <div className="div_head_logo_button">
@@ -13,8 +15,13 @@ function page_central() {
       </div>
 
       <div className="carte_central">
-        
+        <div className="div_carte">une carte
+          <div className="div_nave_barre">
+            {/* <div> </div> */}
+          </div>
+        </div>
       </div>
+
     </>
   )
 }
