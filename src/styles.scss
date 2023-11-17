@@ -1,7 +1,28 @@
 // @use "colors" as *;
 // @use "mixin" as *;
 // @use "variables" as *;
-
+*{
+    border: solid 1px;
+}
+html{ // bonne idée de faire ça avec le html 
+    height: 100%;
+    width: 100%;
+}
 body{
-
+    background-color: rgb(238, 238, 238);
+}
+.div_head_logo_button{
+    display: flex;
+    background-color: #5CA65B;
+    .button_head{
+        display: flex;
+    }
+    .h1_head{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        h1{
+            color: red;
+        }
+    }
 }
