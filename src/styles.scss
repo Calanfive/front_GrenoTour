@@ -1,9 +1,17 @@
 // @use "colors" as *;
 // @use "mixin" as *;
 // @use "variables" as *;
-*{
-    // border: solid 1px;
-}
+// *{
+//     // border: solid 1px;
+// }
+
+@import url("leaflet/dist/leaflet.css");
+
+  .leaflet-container {
+    width: 100%;
+    height: 100vh;
+  }
+
 html{ // bonne idée de faire ça avec le html 
     height: 100%;
     width: 100%;
