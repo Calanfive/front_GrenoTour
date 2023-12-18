@@ -8,19 +8,22 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest",    
-    "e2e":"playwright test",
-    "ui":"playwright test --ui",
-    "codegen":"playwright codegen",
-    "debug":"playwright test --debug"
+    "test": "vitest",
+    "e2e": "playwright test",
+    "ui": "playwright test --ui",
+    "codegen": "playwright codegen",
+    "debug": "playwright test --debug"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.19.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.1",
+    "@types/leaflet": "^1.9.8",
     "@types/node": "^20.10.1",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
